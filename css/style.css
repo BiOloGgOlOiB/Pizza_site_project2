@@ -2,14 +2,30 @@
   box-sizing: border-box;
 }
 
+.section-header img{
+wigth: 30px;
+}
+
 .container{
   display:flex;
+}
+
+.input-name:focus {
+  outline: 2px solid orange;
+}
+
+.input-name {
+  margin:3px;
 }
 
 .element{
   background:orange;
   padding: 10px;
   margin: 10px;
+}
+
+.parent {
+  display: flex;
 }
 
 /* Footer */
@@ -50,7 +66,7 @@
 }
 .footer-copyright p {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 10px;
   margin-bottom: 15px;
   text-align: center;
 }
